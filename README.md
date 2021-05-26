@@ -1,2 +1,2 @@
-# bootcamp12g
+# Bootcamp12g
 Primer repositorio del Bootcamp de Kodemia
