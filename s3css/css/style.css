@@ -1,0 +1,37 @@
+header{
+    background-color: blue;
+    padding: 15px;
+}
+
+ nav{
+    background-color: purple;
+    margin: auto;
+    padding: 15px;
+}
+
+
+section{
+    background-color: red;
+    display:inline-block;
+    margin-top:10px;
+    float: left;
+    width: 65%;
+    padding: 15px;
+    height: 500px;
+ }
+
+ aside{
+     padding: 15px;
+     margin-top:10px;
+     display:inline-block;
+     float: right;
+     width: 30%;
+     background-color: yellow;
+     height: 500px;
+ }
+ footer{
+     margin-top: 10px;
+     background-color: grey;
+     display: inline-block;
+     width: 100%;
+    }
