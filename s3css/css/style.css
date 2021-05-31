@@ -1,37 +1,58 @@
-header{
-    background-color: blue;
-    padding: 15px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
- nav{
-    background-color: purple;
-    margin: auto;
-    padding: 15px;
+.div-wrapper{
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    margin:: 5vh 0 5vh 0;
+    border: 1px solid black;  
+    position: relative; 
 }
 
+.div-nested-wrapper{
+    width: 50vw;
+    height: 50vh;
+    margin: 20vh auto;
+    border: 1px solid green;
+    position: relative;  
+}
 
-section{
-    background-color: red;
-    display:inline-block;
-    margin-top:10px;
-    float: left;
-    width: 65%;
-    padding: 15px;
-    height: 500px;
- }
+.component-center{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin: calc(25vh - 25px) auto;
+    border: 1px solid red;
+}
 
- aside{
-     padding: 15px;
-     margin-top:10px;
-     display:inline-block;
-     float: right;
-     width: 30%;
-     background-color: yellow;
-     height: 500px;
- }
- footer{
-     margin-top: 10px;
-     background-color: grey;
-     display: inline-block;
-     width: 100%;
-    }
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.component-top{        
+    top: 24px;
+    right: calc(25vw - 25px);
+}
+
+.component-bottom{
+    bottom: 24px;
+    right: calc(25vw - 25px);
+}
+
+.component-left{
+    top: calc(25vh - 25px);
+    left: 24px;
+}
+
+.component-right{
+    top: calc(25vh - 25px);
+    right: 24px;
+}
