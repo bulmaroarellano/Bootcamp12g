@@ -1,0 +1,20 @@
+.logo{
+    width:  50px;
+    height: auto;
+}
+
+div.container{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul.navegacion li{
+    vertical-align: top;
+    display: inline;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+ul.navegacion li a{
+    text-decoration:none;
+}
