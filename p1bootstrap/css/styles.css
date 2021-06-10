@@ -1,0 +1,54 @@
+.bg-image{
+ background-image: url('../images/background.jpg');
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 50% 50%;
+  //align-items: center;
+}
+*{font-size:13px;
+font-weight:500;}
+blockquote {
+    font-weight: 600;
+}
+.bg-image-row{
+    background-color: #EDF2F8;
+   }
+   .rounded{        
+       border-radius: 10px;
+   }
+
+   .card-violet{
+         background-color: hsl(263, 55%, 52%);
+        border-color: hsl(263, 55%, 52%);
+        box-shadow: -4px 4px 2px hsl(263, 55%, 52%);
+    }
+
+   .card-grayish
+    {
+        background-color: hsl(217, 19%, 35%);
+        border-color: hsl(217, 19%, 35%);
+        box-shadow: -4px 4px 1px hsl(217deg 19% 35%);
+    }
+    
+    
+.card-blackfish
+     {
+        background-color: hsl(219, 29%, 14%);
+         border-color: hsl(219, 29%, 14%);
+        box-shadow: -3px 3px 2px hsl(219, 29%, 14%);
+    }
+
+.card-white {
+    background-color: hsl(0, 0%, 100%);
+     border-color: hsl(0, 0%, 100%);
+    box-shadow: 3px 3px 10px hsl(0, 0%, 81%);
+}
+
+ .text-light-gray{
+     color:hsl(0, 0%, 81%);
+ }
+ .text-light-blue{
+     color:hsl(210, 46%, 95%);
+ }
+ 
+
