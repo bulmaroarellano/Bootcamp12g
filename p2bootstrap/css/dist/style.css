@@ -1,0 +1,93 @@
+.text-magenta {
+  color: #502050 !important;
+}
+
+.text-pink {
+  color: #ee68a4 !important;
+}
+
+.text-dkmagenta {
+  color: #937b92 !important;
+}
+
+.text-lgmagenta {
+  color: #f7f2f7 !important;
+}
+
+.text-nwhite {
+  color: white !important;
+}
+
+.bg-magenta {
+  background-color: #502050 !important;
+}
+
+a.bg-magenta:hover, a.bg-magenta:focus,
+button.bg-magenta:hover,
+button.bg-magenta:focus {
+  background-color: #2c112c !important;
+}
+
+.bg-pink {
+  background-color: #ee68a4 !important;
+}
+
+a.bg-pink:hover, a.bg-pink:focus,
+button.bg-pink:hover,
+button.bg-pink:focus {
+  background-color: #e93a89 !important;
+}
+
+.bg-dkmagenta {
+  background-color: #937b92 !important;
+}
+
+a.bg-dkmagenta:hover, a.bg-dkmagenta:focus,
+button.bg-dkmagenta:hover,
+button.bg-dkmagenta:focus {
+  background-color: #796378 !important;
+}
+
+.bg-lgmagenta {
+  background-color: #f7f2f7 !important;
+}
+
+a.bg-lgmagenta:hover, a.bg-lgmagenta:focus,
+button.bg-lgmagenta:hover,
+button.bg-lgmagenta:focus {
+  background-color: #e4d3e4 !important;
+}
+
+.bg-nwhite {
+  background-color: white !important;
+}
+
+a.bg-nwhite:hover, a.bg-nwhite:focus,
+button.bg-nwhite:hover,
+button.bg-nwhite:focus {
+  background-color: #e6e6e6 !important;
+}
+
+/* Colors  */
+/*  Font-Size  */
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+
+.img-user {
+  width: 45px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+.bg-soft-pink-color {
+  background-color: #F8F1F7;
+}
+
+body.center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
