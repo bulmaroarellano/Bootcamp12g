@@ -1,0 +1,27 @@
+/* Colors  */
+/*  Font-Size  */
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+
+.img-user {
+  width: 45px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+.bg-soft-pink-color {
+  background-color: #F8F1F7;
+}
+
+body.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=style.css.map */

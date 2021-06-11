@@ -1,0 +1,49 @@
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+$colors: () !default;
+$colors: map-merge(("very-dark-magenta": $very-dark-magenta, "soft-pink": $soft-pink, "dark-grayish-magenta": $dark-grayish-magenta, "light-grayish-magenta": $light-grayish-magenta, "white": $white, ), $colors);
+$magenta: $very-dark-magenta !default;
+$pink: $soft-pink !default;
+$dkmagenta: $dark-grayish-magenta !default;
+$lgmagenta: $light-grayish-magenta !default;
+$nwhite: $white !default;
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(("magenta": $magenta, "pink": $pink, "dkmagenta": $dkmagenta, "lgmagenta": $lgmagenta, "nwhite": $nwhite, ), $theme-colors);
+@mixin hover-focus() {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+@mixin text-emphasis-variant($parent, $color) {
+    #{$parent} {
+        color: $color !important;
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    @include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+@mixin bg-variant($parent, $color) {
+    #{$parent} {
+        background-color: $color !important;
+    }
+    a#{$parent},
+    button#{$parent} {
+        @include hover-focus() {
+            background-color: darken($color, 10%) !important;
+        }
+    }
+}
+
+@each $color,
+$value in $theme-colors {
+    @include bg-variant(".bg-#{$color}", $value);
+}

@@ -1,0 +1,30 @@
+    @import 'colors.scss';
+    /* Colors  */
+    
+    $magenta-color: hsl(300, 43%, 22%);
+    $soft-pink-color:#F8F1F7;
+    $dark-grayish-magenta: hsl(303, 10%, 53%);
+    $light-grayish-magenta:hsl(300, 24%, 96%);
+    /*  Font-Size  */
+    
+    body {
+        font-size: 15px;
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    .img-user {
+        width: 45px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+    }
+    
+    .bg-soft-pink-color {
+        background-color: $soft-pink-color;
+    }
+    
+    body.center {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+    }
