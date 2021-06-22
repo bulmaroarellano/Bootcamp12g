@@ -38,8 +38,6 @@ console.log(character_start);
 switch(isCharacterALetter(character_start)){
     case true: //Accede si es una letra 
             //determinamos si es una vocal 
-
-            
             if(isVowel(character_start)){
                 console.log(`El string ${string} inicia con una vocal, la cual es ${character_start}`) 
             }else{
@@ -47,7 +45,6 @@ switch(isCharacterALetter(character_start)){
                 console.log(`El string ${string} inicia con una constante, la cual es ${character_start}`) 
              }
              break;
-
     case false: //Puede que sea un número o un caracter especial
             //Comprobamos el tipo de dato para determinar si es numero
             if (isNumber(character_start)) {
@@ -58,6 +55,3 @@ switch(isCharacterALetter(character_start)){
             }
             break;
 }
-
-
-
